@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
   const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
   const menu = document.querySelector('.navbar-collapse');
 
@@ -234,4 +234,8 @@ form.addEventListener('submit', function(e) {
     // Opcional: limpar o formulário
     form.reset();
 });
->>>>>>> 97c9323c8615c72faf1d2f0376112ef5da6ea842
+
+function copiarPix() {
+    navigator.clipboard.writeText("849987909064");
+    alert("Chave PIX copiada com sucesso!");
+}
