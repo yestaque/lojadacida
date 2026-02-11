@@ -400,3 +400,6 @@ section p {
     transform: translateY(0);
 }
 
+.zap{
+    height: 40px;
+}
