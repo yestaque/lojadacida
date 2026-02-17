@@ -455,3 +455,106 @@ section p {
   background: linear-gradient(45deg, #128c7e, #25d366);
   transform: scale(1.05);
 }
+
+/* FUNDO GERAL */
+body {
+  background: linear-gradient(to bottom, #fff0f5, #ffffff);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR FEMININA */
+.navbar {
+  background: linear-gradient(90deg, #e83e8c, #ff69b4) !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* TÍTULOS */
+h1, h2 {
+  color: #c2185b;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(232, 62, 140, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(232, 62, 140, 0.3);
+}
+
+.card-img-top {
+  height: 260px;
+  object-fit: cover;
+}
+
+/* PREÇO DESTACADO */
+.preco {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e83e8c;
+}
+
+/* BOTÃO PERSONALIZADO */
+.btn-success {
+  background: linear-gradient(45deg, #ff69b4, #e83e8c);
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-success:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #e83e8c, #ff1493);
+}
+
+/* WHATSAPP FIXO BONITO */
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff69b4;
+  color: white;
+  font-size: 28px;
+  padding: 15px 18px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.whatsapp-fixo:hover {
+  transform: scale(1.1);
+  background: #e83e8c;
+}
+
+/* SEÇÃO PAGAMENTO */
+.pagamento-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.pagamento-card:hover {
+  transform: translateY(-5px);
+}
+
+/* RODAPÉ */
+.rodape {
+  background: #f5bbcc;
+  padding: 40px 0;
+}
