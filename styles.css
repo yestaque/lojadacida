@@ -403,3 +403,55 @@ section p {
 .zap{
     height: 40px;
 }
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+  font-size: 14px;
+}
+
+.preco {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e63946;
+  margin: 10px 0;
+}
+
+.btn-success {
+  background: linear-gradient(45deg, #25d366, #128c7e);
+  border: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-success:hover {
+  background: linear-gradient(45deg, #128c7e, #25d366);
+  transform: scale(1.05);
+}
